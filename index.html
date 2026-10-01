@@ -27,7 +27,7 @@
 <body>
 <main>
   <h1>Focus Moment</h1>
-  <p class="muted">私隱政策 · Privacy Policy · 最後更新 / Last updated: 2026-09-27</p>
+  <p class="muted">私隱政策 · Privacy Policy · 最後更新 / Last updated: 2026-10-01</p>
   <nav class="lang" aria-label="Language">
     <a href="#zh" id="tab-zh" class="on">繁體中文（香港）</a>
     <a href="#en" id="tab-en">English</a>
@@ -46,8 +46,8 @@
     <p>以上資料存喺 App 嘅私人容器（App Group），唔會上載、唔會同步到任何伺服器。刪除 App 就會一併刪除。</p>
 
     <p><strong>匿名用量統計（會離開手機）：</strong></p>
-    <p>為咗知道邊啲功能有人用，Focus Moment 會透過 <a href="https://posthog.com">PostHog</a> 送出少量匿名事件，例如「開咗 App」「開始咗一次遮罩」「睇咗付費頁」。每個事件只包含：事件名稱、模式種類（例如「動態牆」/「鎖定」）、分鐘數、次數、App 版本、iOS 版本、裝置型號、語言。</p>
-    <p><strong>唔會包含</strong>：你揀咗邊啲 app、你寫嘅理由、你嘅名、電郵、電話、聯絡人、位置、廣告識別碼。我哋唔會建立跨 App 嘅個人檔案。IP 地址會喺 PostHog 一端匿名化。</p>
+    <p>為咗知道邊啲功能有人用，Focus Moment 會透過 <a href="https://posthog.com">PostHog</a> 送出少量匿名事件，例如「開咗 App」「開始咗一次遮罩」「睇咗付費頁」。每個事件只包含：事件名稱、模式種類（例如「動態牆」/「鎖定」）、分鐘數、次數、App 版本、iOS 版本、裝置型號、語言、時區、螢幕尺寸、網絡類型（Wi‑Fi／流動數據），以及一個隨機產生嘅匿名安裝識別碼（唔係廣告識別碼；刪除 App 就會重設）。</p>
+    <p><strong>唔會包含</strong>：你揀咗邊啲 app、你寫嘅理由、你嘅名、電郵、電話、聯絡人、位置、廣告識別碼。我哋唔會建立跨 App 嘅個人檔案。我哋已關閉 PostHog 嘅地理位置推斷，並設定 PostHog 唔儲存 IP 地址。</p>
 
     <h2>2. 權限</h2>
     <ul>
@@ -87,8 +87,8 @@
     <p>This lives in the app's private container (App Group). It is never uploaded or synced. Deleting the app deletes it.</p>
 
     <p><strong>Anonymous usage analytics (does leave the phone):</strong></p>
-    <p>To learn which features are used, Focus Moment sends a small number of anonymous events through <a href="https://posthog.com">PostHog</a>, such as "app opened", "session started", "paywall viewed". Each event carries only: the event name, the kind of mode (e.g. feeds / lockdown), minutes, counts, app version, iOS version, device model and language.</p>
-    <p><strong>Never included</strong>: which apps you chose, the reasons you typed, your name, email, phone number, contacts, location or advertising identifier. We do not build cross-app profiles. IP addresses are anonymised on PostHog's side.</p>
+    <p>To learn which features are used, Focus Moment sends a small number of anonymous events through <a href="https://posthog.com">PostHog</a>, such as "app opened", "session started", "paywall viewed". Each event carries only: the event name, the kind of mode (e.g. feeds / lockdown), minutes, counts, app version, iOS version, device model, language, time zone, screen size, network type (Wi‑Fi / cellular), and a randomly generated anonymous install identifier (not the advertising identifier; deleting the app resets it).</p>
+    <p><strong>Never included</strong>: which apps you chose, the reasons you typed, your name, email, phone number, contacts, location or advertising identifier. We do not build cross-app profiles. We have disabled PostHog's location inference and configured PostHog not to store IP addresses.</p>
 
     <h2>2. Permissions</h2>
     <ul>
